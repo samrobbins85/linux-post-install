@@ -108,3 +108,7 @@ Meta=org.kde.krunner,/App,,display
 ## Python
 * Most distros will have python and pip installed, so I'm skipping over that
 * Install the black code formatter using `pip install black`
+
+## Chromium
+1. Install chromium using the package manager
+2. Run the `widevine.sh` script to enable widevine for watching Netflix
