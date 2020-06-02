@@ -27,3 +27,66 @@ At this point, a reboot is good to load in the new drivers and packages
 2. Right click on the panel and change the icon size to large
 3. Under `Configure Toolbars` add the terminal to the Toolbars
 4. Create two folders in documents, `University` and `Personal Projects`
+
+## Double click to open folders
+Under `General Behaviour` in the system settings, change the option for opening a folder from single click to double click.
+
+## GPG Key
+1. Install KGPG using the package manager
+2. Add the GPG key
+
+## Firefox
+1. Open Firefox and log in
+2. Let all the extensions install and log in to them all
+3. Under `Customize` enable the bookmark bar
+
+## Calendar
+1. Open KOrganiser
+2. Under settings, go to `Configure KOrganiser`
+3. Go to `Calendars` under `General` and click `Add`
+4. Proceed with the steps to add Google Calendar
+
+## Panel
+1. Right click on the clock to change the time and date settings
+2. Change the time format to 24 hours
+3. Enable showing the date
+4. Enable the PIM events plugin
+5. Enable google calendar showing
+6. Open the system tray settings
+7. Disable the clipboard
+
+## NAS
+1. Open Dolphin, under `Network`, use `Add Network Folder` to add the NAS
+2. Add the created folder to the Places sidebar
+
+
+## LaTeX
+1. Install the full version of `TexLive` using the package manager
+2. Install `TexStudio` using the package manager
+3. If available install `LanguageTool`
+4. In the TexStudio settings under `Editor`, change to show all line numbers
+5. Remove all unnecessary toolbars
+
+## Flatpak
+1. Install flatpak for your distribution using the instructions [here](https://flatpak.org/setup/)
+2. Use it to install GitKraken, Spotify and Minecraft and sign in
+
+## GitKraken
+1. Open GitKraken and sign in using your GitHub credentials
+2. Under preferences set up the GPG key you set up earlier
+3. Clone in whatever repositories you are currently working on
+
+## Atom
+1. If it is available for your distribution, install Atom using the instructions [here](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
+2. If it is not available install it using Flatpak
+
+## Visual Studio Code
+1. VS Code can be installed using the instructions [here](https://code.visualstudio.com/docs/setup/linux)
+
+## Flameshot
+1. Flameshot should be in the repos, if not check the website for an installer
+2. Follow the instructions [here](https://flameshot.js.org/#/key-bindings?id=on-kde-plasma-desktop) to integrate with the Plasma Desktop
+
+## Snap
+1. Install Snap using the instructions [here](https://snapcraft.io/docs/installing-snapd)
+2. Install MathPix Snipping tool using the command `sudo snap install mathpix-snipping-tool` and log in
