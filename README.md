@@ -1,15 +1,27 @@
 # Post Install Instructions
+
 ## What you should have before this
+
 A distro set up with KDE Plasma Desktop
+
 ## Update
+
 Perform the distro update mechanism to ensure all packages are up to date
+
 ## Drivers
+
 If on an Nvidia machine, follow the distro instructions to set up the NVidia drivers.
+
 ## Libraries
+
 Follow the distro instructions to install graphics libraries such as `ffmpeg`
+
 ## Reboot
+
 At this point, a reboot is good to load in the new drivers and packages
+
 ## Yakuake
+
 1. Install the Yakuake drop down terminal using the distro's package manager.
 2. Open Yakuake and it will prompt you that it can be opened with F12, so do that
 3. Press `Ctrl+Shift+,` to open the configuration
@@ -18,35 +30,42 @@ At this point, a reboot is good to load in the new drivers and packages
 6. Go to `Autostart` in the system settings and enable Yakuake to autostart
 
 ## Hostname
+
 1. Run `sudo nano /etc/hostname` and edit the file to contain the desired hostname
 2. Run `sudo nano /etc/hosts` and change from the old to new hostname
 3. Reboot to ensure the changes take effect
 
 ## Dolphin
+
 1. Open Dolphin
 2. Right click on the panel and change the icon size to large
 3. Under `Configure Toolbars` add the terminal to the Toolbars
 4. Create two folders in documents, `University` and `Personal Projects`
 
 ## Double click to open folders
+
 Under `General Behaviour` in the system settings, change the option for opening a folder from single click to double click.
 
 ## GPG Key
+
 1. Install KGPG using the package manager
 2. Add the GPG key
 
 ## Firefox
+
 1. Open Firefox and log in
 2. Let all the extensions install and log in to them all
 3. Under `Customize` enable the bookmark bar
 
 ## Calendar
+
 1. Open KOrganiser
 2. Under settings, go to `Configure KOrganiser`
 3. Go to `Calendars` under `General` and click `Add`
 4. Proceed with the steps to add Google Calendar
 
 ## Panel
+
 1. Right click on the clock to change the time and date settings
 2. Change the time format to 24 hours
 3. Enable showing the date
@@ -56,18 +75,21 @@ Under `General Behaviour` in the system settings, change the option for opening 
 7. Disable the clipboard
 
 ## KRunner
+
 To set up Krunner to open when the super key is pressed, add the following to the bottom of `~/.config/kwinrc`
+
 ```
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,display
 ```
 
 ## NAS
+
 1. Open Dolphin, under `Network`, use `Add Network Folder` to add the NAS
 2. Add the created folder to the Places sidebar
 
-
 ## LaTeX
+
 1. Install the full version of `TexLive` using the package manager
 2. Install `TexStudio` using the package manager
 3. If available install `LanguageTool`
@@ -75,40 +97,51 @@ Meta=org.kde.krunner,/App,,display
 5. Remove all unnecessary toolbars
 
 ## Flatpak
+
 1. Install flatpak for your distribution using the instructions [here](https://flatpak.org/setup/)
 2. Use it to install GitKraken, Spotify and Minecraft and sign in
 
 ## GitKraken
+
 1. Open GitKraken and sign in using your GitHub credentials
 2. Under preferences set up the GPG key you set up earlier
 3. Clone in whatever repositories you are currently working on
 
+## NodeJS
+
+- Install NodeJS using the package manager
+- Install Vercel using `npm i -g vercel`
+- Log in using `vc login`
+- Install Gatsby using `npm i -g gatsby-cli`
+- Install prettier using `npm i -g prettier`
+
 ## Atom
+
 1. If it is available for your distribution, install Atom using the instructions [here](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 2. If it is not available install it using Flatpak
+3. Install the `prettier-atom` plugin
+4. In the prettier settings enable format on save
 
 ## Visual Studio Code
+
 1. VS Code can be installed using the instructions [here](https://code.visualstudio.com/docs/setup/linux)
 
 ## Flameshot
+
 1. Flameshot should be in the repos, if not check the website for an installer
 2. Follow the instructions [here](https://flameshot.js.org/#/key-bindings?id=on-kde-plasma-desktop) to integrate with the Plasma Desktop
 
 ## Snap
+
 1. Install Snap using the instructions [here](https://snapcraft.io/docs/installing-snapd)
 2. Install MathPix Snipping tool using the command `sudo snap install mathpix-snipping-tool` and log in
 
-## NodeJS
-* Install NodeJS using the package manager
-* Install Vercel using `npm i -g vercel`
-* Log in using `vc login`
-* Install Gatsby using `npm i -g gatsby-cli`
-* Install prettier using `npm i -g prettier`
-
 ## Python
-* Most distros will have python and pip installed, so I'm skipping over that
-* Install the black code formatter using `pip install black`
+
+- Most distros will have python and pip installed, so I'm skipping over that
+- Install the black code formatter using `pip install black`
 
 ## Chromium
+
 1. Install chromium using the package manager
 2. Run the `widevine.sh` script to enable widevine for watching Netflix
