@@ -55,6 +55,13 @@ Under `General Behaviour` in the system settings, change the option for opening 
 6. Open the system tray settings
 7. Disable the clipboard
 
+## KRunner
+To set up Krunner to open when the super key is pressed, add the following to the bottom of `~/.config/kwinrc`
+```
+[ModifierOnlyShortcuts]
+Meta=org.kde.krunner,/App,,display
+```
+
 ## NAS
 1. Open Dolphin, under `Network`, use `Add Network Folder` to add the NAS
 2. Add the created folder to the Places sidebar
