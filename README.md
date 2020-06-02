@@ -90,3 +90,14 @@ Under `General Behaviour` in the system settings, change the option for opening 
 ## Snap
 1. Install Snap using the instructions [here](https://snapcraft.io/docs/installing-snapd)
 2. Install MathPix Snipping tool using the command `sudo snap install mathpix-snipping-tool` and log in
+
+## NodeJS
+* Install NodeJS using the package manager
+* Install Vercel using `npm i -g vercel`
+* Log in using `vc login`
+* Install Gatsby using `npm i -g gatsby-cli`
+* Install prettier using `npm i -g prettier`
+
+## Python
+* Most distros will have python and pip installed, so I'm skipping over that
+* Install the black code formatter using `pip install black`
