@@ -63,6 +63,7 @@ Under `General Behaviour` in the system settings, change the option for opening 
 2. Under settings, go to `Configure KOrganiser`
 3. Go to `Calendars` under `General` and click `Add`
 4. Proceed with the steps to add Google Calendar
+5. In the system tray, turn off notifications for the KOrganiser Daemon.
 
 ## Panel
 
