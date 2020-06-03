@@ -88,6 +88,11 @@ Meta=org.kde.krunner,/App,,display
 1. Open Dolphin, under `Network`, use `Add Network Folder` to add the NAS
 2. Add the created folder to the Places sidebar
 
+## Show Desktop
+
+1. Go to `KWin Scripts` and enable the script titled `MinimiseAll`
+2. In `Global Shortcuts` reassign `MinimiseAll` to `Super+D`
+
 ## LaTeX
 
 1. Install the full version of `TexLive` using the package manager
