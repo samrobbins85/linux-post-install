@@ -128,6 +128,7 @@ Meta=org.kde.krunner,/App,,display
 3. Install the `prettier-atom` plugin
 4. In the prettier settings enable format on save
 5. Go to the `autocomplete-plus` package settings and change the keymap for confirming a suggestion to `tab always`
+6. Also in the `autocomplete-plus` settings, blacklist `*.md` files.
 
 ## Visual Studio Code
 
