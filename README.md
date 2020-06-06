@@ -51,6 +51,9 @@ Under `General Behaviour` in the system settings, change the option for opening 
 1. Install KGPG using the package manager
 2. Add the GPG key
 
+## Git LFS
+Install `git-lfs` using your package manager
+
 ## Firefox
 
 1. Open Firefox and log in
