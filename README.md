@@ -20,6 +20,9 @@ Follow the distro instructions to install graphics libraries such as `ffmpeg`
 
 At this point, a reboot is good to load in the new drivers and packages
 
+## Good packages to install
+* `pandoc`
+
 ## Yakuake
 
 1. Install the Yakuake drop down terminal using the distro's package manager.
@@ -132,6 +135,7 @@ Meta=org.kde.krunner,/App,,display
 4. In the prettier settings enable format on save
 5. Go to the `autocomplete-plus` package settings and change the keymap for confirming a suggestion to `tab always`
 6. Also in the `autocomplete-plus` settings, blacklist `*.md` files.
+7. Under Packages, disable `Wrap Guide`, this removes the vertical line at 80 characters
 
 ## Visual Studio Code
 
