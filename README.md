@@ -32,6 +32,9 @@ At this point, a reboot is good to load in the new drivers and packages
 5. Go to `appearance`, then `get new skins` and install the Materia Dark theme, and enable it
 6. Go to `Autostart` in the system settings and enable Yakuake to autostart
 
+## Fonts
+1. Install the JetBrains Mono font found [here](https://www.jetbrains.com/lp/mono/)
+
 ## Hostname
 
 1. Run `sudo nano /etc/hostname` and edit the file to contain the desired hostname
