@@ -49,10 +49,15 @@ At this point, a reboot is good to load in the new drivers and packages
 
 Under `General Behaviour` in the system settings, change the option for opening a folder from single click to double click.
 
+## NAS
+
+1. Open Dolphin, under `Network`, use `Add Network Folder` to add the NAS
+2. Add the created folder to the Places sidebar
+
 ## GPG Key
 
 1. Install KGPG using the package manager
-2. Add the GPG key
+2. Add the GPG key (note that the GPG cannot be copied directly from a NAS, it must first be copied to the local file system)
 
 ## Git LFS
 Install `git-lfs` using your package manager
@@ -89,11 +94,6 @@ To set up Krunner to open when the super key is pressed, add the following to th
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,display
 ```
-
-## NAS
-
-1. Open Dolphin, under `Network`, use `Add Network Folder` to add the NAS
-2. Add the created folder to the Places sidebar
 
 ## Show Desktop
 
