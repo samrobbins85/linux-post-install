@@ -130,6 +130,9 @@ Meta=org.kde.krunner,/App,,display
 - Install Gatsby using `npm i -g gatsby-cli`
 - Install prettier using `npm i -g prettier`
 
+## Hugo
+- Install hugo using your package manager
+
 ## Atom
 
 1. If it is available for your distribution, install Atom using the instructions [here](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
