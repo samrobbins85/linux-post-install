@@ -145,7 +145,13 @@ Meta=org.kde.krunner,/App,,display
 
 ## Visual Studio Code
 
-1. VS Code can be installed using the instructions [here](https://code.visualstudio.com/docs/setup/linux)
+1. VS Code can be installed using the instructions [here](https://code.visualstudio.com/docs/setup/linux)#
+2. Install the following extensions:
+  - Prettier
+  - ESLint
+  - Tailwind CSS IntelliSense
+  - Headwind
+  - GitLens
 
 ## Flameshot
 
