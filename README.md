@@ -172,3 +172,10 @@ Meta=org.kde.krunner,/App,,display
 
 1. Install chromium using the package manager
 2. Run the `widevine.sh` script to enable widevine for watching Netflix
+
+## zsh
+1. Install zsh using the package manager
+2. Run `chsh -s $(which zsh)` to change the shell to zsh
+3. Install oh my zsh using `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+4. Install bat using the package manager
+5. Copy my dotfiles from my dotfiles repo https://github.com/samrobbins85/dotfiles
