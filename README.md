@@ -179,3 +179,7 @@ Meta=org.kde.krunner,/App,,display
 3. Install oh my zsh using `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 4. Install bat using the package manager
 5. Copy my dotfiles from my dotfiles repo https://github.com/samrobbins85/dotfiles
+
+## Mouse configuration
+1. Install `libratbag` using [these instructions](https://github.com/libratbag/libratbag/wiki/Installation)
+2. Install `piper` using [these instructions](https://github.com/libratbag/piper/wiki/Installation)
