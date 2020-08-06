@@ -69,7 +69,9 @@ Install `git-lfs` using your package manager
 
 1. Open Firefox and log in
 2. Let all the extensions install and log in to them all
-3. Under `Customize` enable the bookmark bar
+3. Under `Customize`
+    * Enable the bookmark bar
+    * Disable the title bar
 
 ## Calendar
 
