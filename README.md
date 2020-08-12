@@ -152,7 +152,6 @@ Meta=org.kde.krunner,/App,,display
   - Prettier
   - ESLint
   - Tailwind CSS IntelliSense
-  - Headwind
   - GitLens
 
 ## Flameshot
@@ -185,3 +184,6 @@ Meta=org.kde.krunner,/App,,display
 ## Mouse configuration
 1. Install `libratbag` using [these instructions](https://github.com/libratbag/libratbag/wiki/Installation)
 2. Install `piper` using [these instructions](https://github.com/libratbag/piper/wiki/Installation)
+
+## Webp
+Install `libwebp` and `libwebp-tools` or whatever they are called in your repositories to get access to the `cwebp` command
