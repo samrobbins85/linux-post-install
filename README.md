@@ -69,6 +69,7 @@ Install `git-lfs` using your package manager
 
 1. Open Firefox and log in
 2. Let all the extensions install and log in to them all
+3. Go to the uBlock origin settings and under "Filter lists" enable a few of the annoyances ones, this blocks login walls on some sites
 3. Under `Customize`
     * Enable the bookmark bar
     * Disable the title bar
